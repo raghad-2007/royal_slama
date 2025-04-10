@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>نظام كشف الإصابات</title>
+    <title>نتيجة التحليل</title>
 </head>
 <body>
-    <h1>أهلاً بك في نظام الكشف</h1>
-    <form action="/analyze" method="POST">
-        <button type="submit">ابدأ التحليل</button>
-    </form>
+    <h1>النتيجة:</h1>
+    <p>{{ result }}</p>
 </body>
 </html>
